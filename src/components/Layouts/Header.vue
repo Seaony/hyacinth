@@ -20,7 +20,7 @@
         </a>
         <el-dropdown-menu slot="dropdown">
           <el-dropdown-item icon="fas fa-fw fa-cog">设置</el-dropdown-item>
-          <el-dropdown-item icon="fas fa-fw fa-power-off">注销</el-dropdown-item>
+          <el-dropdown-item @click.native="logout" icon="fas fa-fw fa-power-off">注销</el-dropdown-item>
         </el-dropdown-menu>
       </el-dropdown>
       <!-- User -->
@@ -43,6 +43,15 @@ export default {
   }),
 
   methods: {
+
+    /**
+     * 注销当前用户
+     */
+    logout () {
+      this.$store.commit('LOGOUT')
+      this.$router.push({ name: 'auth.login' })
+    },
+
     /**
      * 进入全屏
      */
