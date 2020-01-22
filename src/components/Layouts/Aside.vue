@@ -70,7 +70,7 @@
             <i class="fas fa-fw fa-plug"></i>
             <span>图标组件</span>
           </template>
-          <el-menu-item index="1-4-6">控制面板</el-menu-item>
+          <el-menu-item index="icons.fontawesome" :route="{name: 'icons.fontawesome'}">Font Awesome</el-menu-item>
         </el-submenu>
         <el-submenu index="7">
           <template slot="title">

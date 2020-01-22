@@ -66,6 +66,13 @@ export default [
         component: () => import('@/views/business/invoice.vue')
       },
 
+      // 图标组件
+      {
+        path: '/icons/fontawesome',
+        name: 'icons.fontawesome',
+        component: () => import('@/views/icons/fontawesome.vue')
+      },
+
       // 异常
       {
         path: '/exceptions/401',

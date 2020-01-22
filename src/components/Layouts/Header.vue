@@ -1,6 +1,12 @@
 <template>
   <el-header height="65px">
 
+    <el-menu default-active="1" mode="horizontal">
+      <el-menu-item index="1"><i class="fas fa-fw fa-person-booth"></i><span slot="title">运营</span></el-menu-item>
+      <el-menu-item index="2"><i class="fas fa-fw fa-gifts"></i><span slot="title">团购</span></el-menu-item>
+      <el-menu-item index="3"><i class="fas fa-fw fa-database"></i><span slot="title">数据</span></el-menu-item>
+    </el-menu>
+
     <div class="dextral">
 
       <!-- Search -->
@@ -100,6 +106,28 @@ export default {
       padding: 0 4rem !important;
       background: $--color-dark-ligher;
       box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
+
+      .el-menu {
+        display: inline-block;
+
+        &-item {
+          border-radius: 2px;
+          margin-right: 16px;
+          border: none !important;
+          height: 36px !important;
+          transition: ease all .3s;
+          padding: 0 12px !important;
+          line-height: 36px !important;
+          &.is-active {
+            font-weight: bold;
+            color: $--color-primary-heavy !important;
+            background: $--color-dark-heavy !important;
+            span {
+              color: $--color-primary-heavy !important;
+            }
+          }
+        }
+      }
 
       .dextral {
         flex: 1;
