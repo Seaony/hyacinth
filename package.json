@@ -13,6 +13,7 @@
     "axios": "^0.19.1",
     "core-js": "^3.4.4",
     "element-ui": "^2.13.0",
+    "gh-pages": "^2.2.0",
     "normalize.css": "^8.0.1",
     "nprogress": "^0.2.0",
     "vue": "^2.6.10",
