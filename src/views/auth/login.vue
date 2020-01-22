@@ -37,6 +37,7 @@ export default {
       this.loading = true
       setTimeout(() => {
         this.loading = false
+        this.$store.commit('USER_LOGIN', 'test_token', true)
         this.$router.push({ name: 'layouts.default' })
       }, 1000)
     }
