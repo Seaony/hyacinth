@@ -80,6 +80,23 @@ export default [
         component: () => import('@/views/editors/ueditor.vue')
       },
 
+      // 图表组件
+      {
+        path: '/charts/bar',
+        name: 'charts.bar',
+        component: () => import('@/views/charts/bar.vue')
+      },
+      {
+        path: '/charts/line',
+        name: 'charts.line',
+        component: () => import('@/views/charts/line.vue')
+      },
+      {
+        path: '/charts/radar',
+        name: 'charts.radar',
+        component: () => import('@/views/charts/radar.vue')
+      },
+
       // 异常
       {
         path: '/exceptions/401',

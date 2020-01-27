@@ -6,15 +6,8 @@
     </blockquote>
     <el-card class="mb">
       <div slot="header"><b>UEditor 编辑器</b></div>
-      <el-form ref="form" label-position="top">
-        <el-form-item label="活动名称">
-          <VueUeditorWrap v-model="msg"></VueUeditorWrap>
-        </el-form-item>
-        <el-form-item>
-          <el-button type="primary">立即创建</el-button>
-          <el-button>取消</el-button>
-        </el-form-item>
-      </el-form>
+      <VueUeditorWrap class="mb" v-model="msg"></VueUeditorWrap>
+      <pre>{{ msg }}</pre>
     </el-card>
   </div>
 </template>
