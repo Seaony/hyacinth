@@ -80,6 +80,7 @@
           <el-menu-item index="1-4-6">代码编辑器</el-menu-item>
           <el-menu-item index="1-4-6">富文本编辑器</el-menu-item>
           <el-menu-item index="1-4-6">JSON 编辑器</el-menu-item>
+          <el-menu-item index="editors.ueditor" :route="{name: 'editors.ueditor'}">UEditor 编辑器</el-menu-item>
         </el-submenu>
         <el-submenu index="8">
           <template slot="title">

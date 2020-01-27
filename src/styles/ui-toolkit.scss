@@ -360,6 +360,7 @@ $--font-path: '~element-ui/lib/theme-chalk/fonts';
     }
 
     &__content {
+      line-height: 1;
       font-size: 13px;
     }
   }

@@ -73,6 +73,13 @@ export default [
         component: () => import('@/views/icons/fontawesome.vue')
       },
 
+      // 编辑器组件
+      {
+        path: '/editors/ueditor',
+        name: 'editors.ueditor',
+        component: () => import('@/views/editors/ueditor.vue')
+      },
+
       // 异常
       {
         path: '/exceptions/401',
