@@ -91,11 +91,6 @@ export default [
         name: 'charts.line',
         component: () => import('@/views/charts/line.vue')
       },
-      {
-        path: '/charts/radar',
-        name: 'charts.radar',
-        component: () => import('@/views/charts/radar.vue')
-      },
 
       // 异常
       {

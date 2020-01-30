@@ -65,7 +65,6 @@
           </template>
           <el-menu-item index="charts.bar" :route="{name: 'charts.bar'}">条形图</el-menu-item>
           <el-menu-item index="charts.line" :route="{name: 'charts.line'}">折线图</el-menu-item>
-          <el-menu-item index="charts.radar" :route="{name: 'charts.radar'}">雷达图</el-menu-item>
         </el-submenu>
         <el-submenu index="6">
           <template slot="title">
