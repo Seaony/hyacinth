@@ -92,6 +92,13 @@ export default [
         component: () => import('@/views/charts/line.vue')
       },
 
+      // 媒体组件
+      {
+        path: '/medias/video',
+        name: 'medias.video',
+        component: () => import('@/views/medias/video.vue')
+      },
+
       // 异常
       {
         path: '/exceptions/401',

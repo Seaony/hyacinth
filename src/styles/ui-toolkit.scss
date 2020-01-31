@@ -599,8 +599,6 @@ $--font-path: '~element-ui/lib/theme-chalk/fonts';
 
   &--primary {
     &:hover, &:focus, &:active,&.is-loading {
-      background: $--color-primary-heavy !important;
-      border-color: $--color-primary-heavy !important;
       &::before {
         background: transparent !important;
       }

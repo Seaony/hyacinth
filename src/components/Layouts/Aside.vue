@@ -53,7 +53,7 @@
             <i class="fas fa-fw fa-play-circle"></i>
             <span>媒体组件</span>
           </template>
-          <el-menu-item index="1-4-4">视频组件</el-menu-item>
+          <el-menu-item index="medias.video" :route="{name: 'medias.video'}">视频组件</el-menu-item>
           <el-menu-item index="1-4-4">音频组件</el-menu-item>
           <el-menu-item index="1-4-4">图片组件</el-menu-item>
           <el-menu-item index="1-4-4">文件组件</el-menu-item>

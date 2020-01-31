@@ -1,7 +1,7 @@
 <template>
-  <el-row>
-    <el-col :span="12" :offset="6">
-      <el-card>
+  <el-card>
+    <el-row>
+      <el-col :span="24">
         <h2 class="mb" style="margin-top: 0;"><i class="fas fa-fw fa-file-invoice mx-r8"></i> #SDF9823KD</h2>
         <el-table class="mb" :data="items" show-summary :summary-method="getSummaries">
           <el-table-column prop="name" label="名称"></el-table-column>
@@ -17,9 +17,9 @@
           <span class="text-heavy text-bolder" style="float: left;line-height: 38px">生成时间: 2019-05-25</span>
           <el-button icon="fas fa-fw fa-print" type="primary">打印清单</el-button>
         </div>
-      </el-card>
-    </el-col>
-  </el-row>
+      </el-col>
+    </el-row>
+  </el-card>
 </template>
 
 <script>
@@ -115,5 +115,6 @@ export default {
 <style lang="scss" scoped>
   @import "@/styles/vars";
 
-  ::v-deep {}
+  ::v-deep {
+  }
 </style>
